@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  overflow: hidden;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    margin-bottom: 20px;
+    background: #eee1e1;
+    color: #313331;
+    padding: 20px;
+    justify-content: space-between;
+}
+.nav-mage{
+  display: flex;
+  width: 80px;
+  margin-right: auto;
+}
+a {
+  color: rgb(119, 92, 92);
+  text-decoration: none;
+  margin: 10px;
+  font-size: 25px;
+}
+/* Link{
+  align-items: center;
+  margin-left: auto;
+  justify-content: right;
+  text-decoration: none;
+}
+.nav-home{
+  text-decoration: none;
+  
+} */
+.home{
+  display: grid;
+  margin: auto;
+  margin-top: 10vw;
+  justify-items: center;
+  align-items: center;
+}
+.home-about {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vw;
+  max-width: 36rem;
+  padding: 10px;
+}
+button{
+  width: 130px;
+    height: 48px;
+    border: 1px solid rgb(69, 62, 249);
+    background: rgb(69, 62, 249);
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    margin:10px;
+}
+.button-me{
+  width: 180px;
+    height: 48px;
+    border: 1px solid rgb(69, 62, 249);
+    background: rgb(69, 62, 249);
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 10px;
+}
